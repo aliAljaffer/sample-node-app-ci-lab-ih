@@ -37,6 +37,7 @@ jobs:
 
       - name: Run unit tests with coverage and JUnit reports
         # If you're using jest-junit, this env var makes sure the XML lands where the reporter expects.
+        if: always()
         env:
           JEST_JUNIT_OUTPUT: coverage/junit.xml
         run: npm run test:ci
