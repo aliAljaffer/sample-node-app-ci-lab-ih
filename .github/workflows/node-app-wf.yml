@@ -1,4 +1,4 @@
-name: Deploy Node App on Azure VM
+name: Lab 3 (Online) or Lab 1 (Onsite)
 
 on:
   workflow_dispatch:
