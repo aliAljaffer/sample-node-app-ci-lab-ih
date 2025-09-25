@@ -1,4 +1,4 @@
-name: Build, Test, and Deploy to Azure Web App (Container)
+name: Lab 5 (Online) or Lab 3 (Onsite)
 
 on:
  workflow_dispatch:
